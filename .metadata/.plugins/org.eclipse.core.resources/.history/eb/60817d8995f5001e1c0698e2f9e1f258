@@ -1,0 +1,30 @@
+package Home;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class NewTestHome {
+  
+	@BeforeClass
+	public void beforeClassTest()
+	{
+		try
+		{
+			WebDriverManager.chromedriver().setup();
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	@Test
+  public void f() {
+	  
+	  Home hh=new Home(driver);
+	  
+  }
+}

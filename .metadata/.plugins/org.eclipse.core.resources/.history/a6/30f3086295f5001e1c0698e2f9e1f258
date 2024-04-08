@@ -1,0 +1,12 @@
+package Home;
+
+import org.testng.annotations.Test;
+
+public class NewTestHome {
+  @Test
+  public void f() {
+	  
+	  Home hh=new Home(driver);
+	  
+  }
+}

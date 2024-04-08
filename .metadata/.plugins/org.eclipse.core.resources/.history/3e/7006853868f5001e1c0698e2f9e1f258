@@ -1,0 +1,9 @@
+package com.stc.QAFramework;
+
+import org.testng.annotations.Test;
+
+public class RunTest {
+  @Test
+  public void f() {
+  }
+}

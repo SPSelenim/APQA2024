@@ -1,0 +1,28 @@
+package QAUtility;
+
+import java.io.File;
+
+public class ReadProperties {
+
+	public File data=null;
+	public File objects=null;
+	
+	
+	
+	public void readProperties()
+	{
+		
+		try
+		{
+			data=new File(System.getProperty("user.dir"+"\\src\\main\\java\\com\\stc\\QAFramework\\Data\\QAData.properties"));
+			objects=new File(System.getProperty("user.dir"+"\\src\\main\\java\\com\\stc\\QAFramework\\Data\\QALocators.properties"));
+			
+			
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+}

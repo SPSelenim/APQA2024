@@ -1,0 +1,34 @@
+package QAUtility;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class ReadProperties {
+
+	public File data=null;
+	public File objects=null;
+	
+	FileInputStream fisdata=null;
+	FileInputStream fisObjects=null;
+	
+	public void readProperties()
+	{
+		
+		try
+		{
+			data=new File(System.getProperty("user.dir"+"\\src\\main\\java\\com\\stc\\QAFramework\\Data\\QAData.properties"));
+			objects=new File(System.getProperty("user.dir"+"\\src\\main\\java\\com\\stc\\QAFramework\\Data\\QALocators.properties"));
+		
+			fisdata=new FileInputStream(data);
+			fisObjects=new FileInputStream(objects);
+			
+			
+			
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+}

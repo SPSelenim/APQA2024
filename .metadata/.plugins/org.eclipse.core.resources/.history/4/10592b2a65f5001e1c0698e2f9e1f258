@@ -1,0 +1,18 @@
+package QAUtility;
+
+public class ReadProperties {
+
+	
+	public void readProperties()
+	{
+		
+		try
+		{
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+}

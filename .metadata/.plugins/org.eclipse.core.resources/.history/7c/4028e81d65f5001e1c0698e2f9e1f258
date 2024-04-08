@@ -1,0 +1,10 @@
+package QAUtility;
+
+public class ReadProperties {
+
+	
+	public void readProperties()
+	{
+		
+	}
+}

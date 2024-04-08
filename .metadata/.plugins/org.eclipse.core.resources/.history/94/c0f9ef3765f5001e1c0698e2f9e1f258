@@ -1,0 +1,22 @@
+package QAUtility;
+
+import java.io.File;
+
+public class ReadProperties {
+
+	
+	public void readProperties()
+	{
+		
+		try
+		{
+			File data=new File(null);
+			
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+}
