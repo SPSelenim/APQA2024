@@ -1,5 +1,18 @@
 package QAClick;
 
+/*
+ * echo "# APQA2024" >> README.md
+ init init
+ add README.md
+ commit -m "first commit"
+ branch -M main
+ remote add origin https://github.com/SPSelenim/APQA2024.git
+ push -u origin main
+ push an existing repository from the command line
+ remote add origin https://github.com/SPSelenim/APQA2024.git
+ branch -M main
+ push -u origin mai
+ */
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -18,6 +31,7 @@ public class QAClickHome {
 	{
 		try
 		{
+//Added comments
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			//driver.get("file:///D:/SeleniumAutomation/05DemoApps/demo.html");
