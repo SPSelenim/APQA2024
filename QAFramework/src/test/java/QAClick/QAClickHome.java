@@ -32,7 +32,8 @@ public class QAClickHome {
 	{
 		try
 		{
-//Added comments 04-April
+
+//Added comments 04-April and SP
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			//driver.get("file:///D:/SeleniumAutomation/05DemoApps/demo.html");
