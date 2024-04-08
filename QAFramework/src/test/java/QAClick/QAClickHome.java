@@ -32,7 +32,7 @@ public class QAClickHome {
 	{
 		try
 		{
-//Added comments
+//Added comments - SP
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			//driver.get("file:///D:/SeleniumAutomation/05DemoApps/demo.html");
