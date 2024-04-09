@@ -15,7 +15,8 @@ public class QAClick {
 	{
 		try
 		{
-		driver.findElement(By.xpath("//a[@name='QA']")).click();
+driver.manage().window().maximize();
+			driver.findElement(By.xpath("//a[@name='QA']")).click();
 			Thread.sleep(2000);
 		}
 		catch(Exception e)
