@@ -15,7 +15,8 @@ public class Home {
 	{
 		try
 		{
-		driver.findElement(By.id("fname")).sendKeys("HHHH");
+			driver.manage().window().maximize();
+			driver.findElement(By.id("fname")).sendKeys("jmp 2357");
 		Thread.sleep(2000);
 		driver.findElement(By.id("lname")).sendKeys("HHHH");
 		Thread.sleep(2000);
